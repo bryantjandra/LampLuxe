@@ -80,7 +80,30 @@ button span {
 .light {
   position: absolute;
   top: 98%;
-  left: 46%;
-  transform: translateX(-50%);
+  transform: translateX(-65.5%);
   width: 700px;
+}
+
+.text-container {
+  max-width: 660px;
+  margin-top: 7%;
+  margin-left: 50%;
+}
+
+.text-container h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.text-container a {
+  text-decoration: none;
+  background: #00986f;
+  padding: 14px;
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+  margin-top: 25px;
+  margin-right: 50px;
+  border-radius: 30px;
 }
