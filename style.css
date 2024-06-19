@@ -26,11 +26,6 @@ nav .menu-img {
   cursor: pointer;
 }
 
-nav .logo {
-  width: 160px;
-  cursor: pointer;
-}
-
 nav ul {
   flex: 1;
   text-align: right;
@@ -98,6 +93,10 @@ button span {
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 15px;
+  margin-right: 10px;
+}
+.text-container p {
+  margin-right: 10px;
 }
 
 .text-container a {
@@ -116,6 +115,7 @@ button span {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  margin-right: 20px;
   margin-top: 150px;
 }
 
@@ -147,4 +147,74 @@ button span {
 
 .on {
   opacity: 1;
+}
+
+@media (max-width: 1000px) {
+  nav ul li {
+    font-size: 15px;
+  }
+  nav {
+    padding: 15px 5%;
+  }
+  nav .menu-img {
+    width: 20px;
+    margin-right: 15px;
+  }
+  button {
+    height: 25px;
+    width: 50px;
+  }
+  button span {
+    height: 18px;
+    width: 20px;
+    margin-left: 2px;
+  }
+
+  .active span {
+    margin-left: 26px;
+  }
+
+  .lamp-container {
+    width: 150px;
+  }
+
+  .light {
+    transform: translateX(-65%);
+    width: 550px;
+  }
+
+  .text-container {
+    max-width: 500px;
+    margin-top: 10%;
+  }
+  .text-container h1 {
+    font-size: 35px;
+  }
+  .text-container p {
+    font-size: 15px;
+  }
+  .text-container a {
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 18px;
+  }
+
+  .control {
+    margin-top: 100px;
+  }
+  .control .line {
+    width: 200px;
+    height: 3px;
+    margin: 0 10px;
+  }
+
+  .control .line span {
+    height: 7px;
+  }
+}
+
+@media (max-width: 840px) {
+  .text-container h1 {
+    font-size: 30px;
+  }
 }
