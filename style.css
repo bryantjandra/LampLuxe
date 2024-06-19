@@ -12,12 +12,17 @@
   width: 100%;
   color: #fff;
   position: relative;
+  padding-bottom: 500px;
 }
 
 nav {
   display: flex;
   align-items: center;
   padding: 20px 8%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #1d2026;
 }
 
 nav .menu-img {
