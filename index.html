@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/text.css" />
     <link rel="stylesheet" href="styles/gallery.css" />
     <link rel="stylesheet" href="styles/media-queries.css" />
+    <link rel="stylesheet" href="styles/modal.css" />
   </head>
   <body>
     <div class="hero">
@@ -51,20 +52,18 @@
     <section class="gallery">
       <h2>Our Lamp Collection</h2>
       <div class="flex-container">
-        <div class="flex-item"><img src="images/lamp1.jpg" /></div>
-        <div class="flex-item"><img src="images/lamp3.jpeg" /></div>
-        <div class="flex-item"><img src="images/lamp4.webp" /></div>
-        <div class="flex-item"><img src="images/lamp5.webp" /></div>
+        <div class="flex-item"><img src="images/lamp1.jpg" alt="Lamp 1" /></div>
+        <div class="flex-item"><img src="images/lamp3.jpeg" alt="Lamp 2" /></div>
+        <div class="flex-item"><img src="images/lamp4.webp" alt="Lamp 3" /></div>
+        <div class="flex-item"><img src="images/lamp5.webp" alt="Lamp 4" /></div>
       </div>
     </section>
 
-    <script>
-      var btn = document.getElementById("btn");
-      var light = document.getElementById("light");
-      function toggleBtn() {
-        btn.classList.toggle("active");
-        light.classList.toggle("on");
-      }
-    </script>
+    <div id="modal" class="modal">
+      <img class="modal-img" id="modal-img">
+      <span class="close" onclick="closeModal()">&times;</span>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
