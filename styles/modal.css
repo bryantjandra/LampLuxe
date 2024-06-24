@@ -35,7 +35,7 @@
     font-size:40px;
     font-weight:bold;
     cursor:pointer;
-    transition: color 0.25s;
+    transition: color 0.35s;
 }
 
 .close:hover {
