@@ -1,28 +1,27 @@
 .hero {
-    background: #1d2026;
-    min-height: 100vh;
-    width: 100%;
-    color: #fff;
-    position: relative;
-  }
-  
-  .lamp-container {
-    position: absolute;
-    top: -20px;
-    left: 22%;
-    width: 200px;
-  }
-  
-  .lamp {
-    width: 100%;
-  }
-  
-  .light {
-    position: absolute;
-    top: 98%;
-    transform: translateX(-65.5%);
-    width: 700px;
-    opacity: 0;
-    transition: opacity 0.5s;
-  }
-  
+  background: #1d2026;
+  min-height: 85vh;
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+
+.lamp-container {
+  position: absolute;
+  top: -20px;
+  left: 22%;
+  width: 200px;
+}
+
+.lamp {
+  width: 100%;
+}
+
+.light {
+  position: absolute;
+  top: 98%;
+  transform: translateX(-65.5%);
+  width: 700px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
