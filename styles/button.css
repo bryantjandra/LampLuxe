@@ -1,0 +1,35 @@
+button {
+    background: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5;
+    margin-left: 15px;
+  }
+  
+  button span {
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: background 0.5s, margin-left 0.5s;
+  }
+  
+  .active {
+    background: green;
+  }
+  
+  .active span {
+    background: #fff;
+    margin-left: 31px;
+  }
+  
+  .on {
+    opacity: 1;
+  }
+  
