@@ -19,11 +19,26 @@
     /* When used with block display, this centers the image horizontally within its container.
     This ensures that the image is always centered in the middle of the modal. */
     display:block;
-    width:40%;
+    width:70%;
+    max-width:700px;
 }
   
 .no-scroll {
     overflow: hidden;
   }
   
+.close {
+    position: absolute;
+    color:#fff;
+    top:15px;
+    right:35px;
+    font-size:40px;
+    font-weight:bold;
+    cursor:pointer;
+    transition: color 0.25s;
+}
+
+.close:hover {
+    color:#bbb;
+}
   
