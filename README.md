@@ -1,7 +1,7 @@
 
 ## lampluxe
 
-This project is a responsive website showcasing a modern collection of lamps. It was built for the purpose of mastering various CSS concepts including Flexbox, media queries, and responsive design. The website features a hero section, an image gallery with text overlays, a testimonials section, and a modal popup for detailed image viewing. 
+This project is a responsive website showcasing a modern collection of lamps. It was built for the purpose of mastering various CSS concepts, primarily Flebox, media queries, and responsive design. The website features a hero section, an image gallery with text overlays, a testimonials section, and a modal popup for detailed image viewing. 
 
 
 ### Key Features:
