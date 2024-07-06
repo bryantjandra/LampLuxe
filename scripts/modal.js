@@ -1,10 +1,3 @@
-function toggleBtn() {
-  var btn = document.getElementById("btn");
-  var light = document.getElementById("light");
-  btn.classList.toggle("active");
-  light.classList.toggle("on");
-}
-
 var modal = document.getElementById("modal");
 var modalImg = document.getElementById("modal-img");
 
